@@ -1,1 +1,1 @@
-# rubian-u1l-exercise2.io
+# rubian-section-exercise02

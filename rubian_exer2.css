@@ -1,0 +1,210 @@
+.navigation{
+    
+    background-color: #e07a5f;
+    overflow: hidden;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+
+.navigation a{
+    float: left;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 16px 50px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navigation a:hover{
+    background-color: #f1d4d4;
+    color: #bc6c25;
+}
+
+.navigation .Clyde-Logo {
+    position: absolute; /* Position the logo absolutely */
+    top: 10%; /* Align the logo to the top of the navigation bar */
+    left: 50%; /* Align the logo horizontally to the center */
+    transform: translateX(-50%); /* Adjust to center the logo horizontally */
+    width: 150px;
+    height: 150px;
+}
+
+
+.name{
+    font-size: 50px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: bold;
+    color: #e07a5f;
+    text-align: center;
+}
+
+.featured {
+    padding: 10px;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    flex-direction: column; /* Stack items vertically */
+}
+
+.profile {
+    width: 1000px; /* Adjust width as needed */
+    height: 1000px; /* Adjust height as needed */
+    /* You might also want to add margin or padding if necessary */
+}
+
+.desc {
+    font-size: 20px;
+    text-align: center; /* Center text within the description */
+    padding: 10 30px; /* Add padding to the description if needed */
+    margin-right: 15%;
+    margin-left: 15%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.projects {
+    background-color: #f9dcc4;
+    padding: 15px 0;
+    margin-top: 2rem;
+  }
+  
+.project-pic {
+    width: 65%;
+    height: 60%;
+    padding: 10px;
+
+}
+
+.projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.project-container p {
+    padding: 10px;
+  }
+
+
+.project-header{
+    font-size: 40px;
+    padding: 10px;
+    font-weight: bold;
+    color: #e07a5f;
+    text-align: center;
+}
+
+.project-title {
+    margin-bottom: var(--bottom-margin);
+  }
+
+.project-details {
+    margin-bottom: var(--bottom-margin);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+.project-deets {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .project-deets2 {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  
+  .skill-header {
+    margin-bottom: 1rem;
+  }
+  
+  .skills-wrapper img {
+    padding: 1.25rem;
+  }
+  
+  .icon {
+    width: 11.875rem;
+    height: 11.25rem;
+  }
+
+
+  .icon-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .skill-header{
+    font-size: 40px;
+    padding: 10px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.skill-set {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skill-set ul li{
+    font-family: sans-serif;
+    color: #dda15e;
+}
+
+.header {
+    color: #e07a5f
+}
+
+
+
+.footer {
+    background-color: #e07a5f;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 10px;
+    font-weight: bold;
+    position: relative; /* Add relative positioning to the footer */
+}
+
+.footer .logo {
+    position: absolute; /* Position the logo absolutely */
+    top: 50%; /* Align the logo vertically to the center */
+    left: 15%; /* Align the logo horizontally to the center */
+    transform: translate(-50%, -50%); /* Adjust to center the logo both vertically and horizontally */
+    width: 150px;
+    height: 150px;
+}
+
+
+    
+   
